@@ -1,0 +1,27 @@
+Java Installation Steps on Windows:
+
+1. Download Java Development Kit (JDK):
+    - Go to the official Oracle website: https://www.oracle.com/java/technologies/javase-downloads.html
+    - Download the latest version of the JDK for Windows.
+
+2. Install JDK:
+    - Run the downloaded installer.
+    - Follow the on-screen instructions to complete the installation.
+    - Note the installation directory (e.g., `C:\Program Files\Java\jdk-<version>`).
+
+3. Set Environment Variables:
+    - Open the Start Menu and search for "Environment Variables".
+    - Click on "Edit the system environment variables".
+    - In the System Properties window, click on the "Environment Variables" button.
+    - Under System Variables, click "New" and add a new variable:
+      - Variable name: `JAVA_HOME`
+      - Variable value: `C:\Program Files\Java\jdk-<version>`
+    - Find the `Path` variable in the System Variables list, select it, and click "Edit".
+    - Click "New" and add the path to the JDK's `bin` directory (e.g., `C:\Program Files\Java\jdk-<version>\bin`).
+
+4. Verify Installation:
+    - Open Command Prompt.
+    - Type `java -version` and press Enter. You should see the installed Java version.
+    - Type `javac -version` and press Enter. You should see the installed Java compiler version.
+
+Java is now installed and configured on your Windows system.
