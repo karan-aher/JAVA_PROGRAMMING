@@ -16,3 +16,11 @@ class Vectorr  {
 	System.out.println("Vector clear()" + animals);
 }
 }
+/*
+OUTPUT
+=======
+Initial Vector: [Dog, Horse, Cat]
+Removed Elements :Horse
+New Vector :[Dog, Cat]
+Vector clear()[]
+*/

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Evenodd {
     public static void main(String[] args) {
@@ -14,4 +14,10 @@ public class Evenodd {
         }
     }
 }
-   
+   /*
+     OUTPUT    
+     ========
+     Enter a Number
+     5
+     Odd Number
+    */

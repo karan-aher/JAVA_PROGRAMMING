@@ -55,3 +55,37 @@ public class ExpressionsOperators {
         System.out.println("--f: " + (--f)); // Pre-decrement
     }
 }
+/*
+OUTPUT
+======
+a + b = 15
+a - b = 5
+a * b = 50
+a / b = 2
+a % b = 0
+a == b: false
+a != b: true
+a > b: true
+a < b: false
+a >= b: true
+a <= b: false
+x && y: false
+x || y: true
+!x: false
+c & d: 4
+c | d: 6
+c ^ d: 2
+~c: -7
+c << 1: 12
+c >> 1: 3
+e += 5: 15
+e -= 3: 12
+e *= 2: 24
+e /= 4: 6
+e %= 3: 0
+f++: 10
+++f: 12
+f--: 12
+--f: 10
+
+ */
