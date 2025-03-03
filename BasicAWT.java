@@ -25,3 +25,8 @@ public class BasicAWT {
         f.add(b);
     }
 }
+/*
+  Output: A window will open with a label "Enter Your Name" and a text field
+  with default value "Karan" and a label "Address" and a text area with 4 rows
+ *and 40 columns and a button "Submit"
+ */
